@@ -50,7 +50,5 @@ export const buildQuery = async function ({ skip, limit, status, id }) {
   if (limit !== null && limit !== undefined) {
     aggregateQuery.push({ $limit: limit });
   }
-
-  console.log("Aggregation Pipeline:", aggregateQuery);
   return aggregateQuery;
 };

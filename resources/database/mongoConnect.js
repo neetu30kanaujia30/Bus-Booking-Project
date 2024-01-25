@@ -5,7 +5,7 @@ const dbUrl = config.get("mongo.url");
 const connection = async () => {
   try {
     await mongoose.connect(dbUrl);
-    console.log("Connected to MongoDB Atlas");
+    console.log("Connected to MongoDB Atlas start at ---->",new Date().toLocaleString());
   } catch (error) {
     console.error("MongoDB connection error:", error.message);
   }

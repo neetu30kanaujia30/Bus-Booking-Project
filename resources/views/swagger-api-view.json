@@ -150,7 +150,12 @@
               "$ref": "#/definitions/updateStatus"
             }
           }
-        }
+        },
+        "security": [
+          {
+            "AccessToken": []
+          }
+        ]
       }
     },
     "/v1/tickets/status/{status}": {

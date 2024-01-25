@@ -15,6 +15,10 @@ class ticketController {
                                 description: 'Dummy data',
                                 schema: { $ref: "#/definitions/updateStatus" }
     }*/
+
+    /* #swagger.security = [{
+               "AccessToken": []
+        }] */
     return await ticketsService.updateBookingStatus(req, res, next);
   }
   async getAllTickets(req, res, next) {
