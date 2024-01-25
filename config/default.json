@@ -1,0 +1,21 @@
+{
+  "user": {
+    "username" : "neetu",
+    "host_url": "localhost:9002",
+    "port": "9002",
+    "host": "localhost:9002"
+  },
+  "mongo": {
+    "username": "neetu30",
+    "password": "5EjqUBjDbyuGbRla",
+    "host": "127.0.0.1",
+    "db_name": "test",
+    "url" : "mongodb+srv://neetu30:5EjqUBjDbyuGbRla@atlascluster.cu2ufgl.mongodb.net/?retryWrites=true&w=majority"
+  },
+"seederCount" :{
+  "booking" : 50,
+  "user" : 60 
+},
+  "swagger_host_url": "localhost:9002",
+      "token_secret": "SAkjSOciObOard_7541"
+}
