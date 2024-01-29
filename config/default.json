@@ -1,9 +1,9 @@
 {
   "user": {
     "username" : "neetu",
-    "host_url": "localhost:9002",
+    "host_url": "0.0.0.0:9002",
     "port": "9002",
-    "host": "localhost:9002"
+    "host": "0.0.0.0:9002"
   },
   "mongo": {
     "username": "neetu30",
@@ -16,6 +16,6 @@
   "booking" : 50,
   "user" : 60 
 },
-  "swagger_host_url": "localhost:9002",
+  "swagger_host_url": "0.0.0.0:9002",
       "token_secret": "SAkjSOciObOard_7541"
 }
