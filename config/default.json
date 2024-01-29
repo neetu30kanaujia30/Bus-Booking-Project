@@ -16,6 +16,6 @@
   "booking" : 50,
   "user" : 60 
 },
-  "swagger_host_url": "https://bus-booking-project1.onrender.com",
+  "swagger_host_url": "bus-booking-project1.onrender.com",
       "token_secret": "SAkjSOciObOard_7541"
 }
