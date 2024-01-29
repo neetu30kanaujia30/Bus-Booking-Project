@@ -9,7 +9,7 @@ const doc = {
   },
   host: config.get("swagger_host_url"), // by default: "localhost:3000"
   basePath: "/", // by default: "/"
-  schemes: ["http"],
+  schemes: ["https"],
   consumes: ["application/json", "application/x-www-form-urlencoded"],
   produces: ["application/json"],
   tags: [
