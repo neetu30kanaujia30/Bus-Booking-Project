@@ -55,18 +55,18 @@ class TicketService {
       ]);
       let currentPage = page;
       let totalPages = Math.ceil(totalCount / limit);
-      let firstPageURL = `http://${config.get("user.host_url")}/v1/tickets?page=1&limit=${limit}`;
+      let firstPageURL = `${config.get("user.host_url")}/v1/tickets?page=1&limit=${limit}`;
       let from = skip + 1;
       let to = Math.min(skip + limit, totalCount);
       let nextPageURL =
         page < totalPages
-          ? `http://${config.get("user.host_url")}/v1/tickets?page=${page + 1}&limit=${limit}`
+          ? `${config.get("user.host_url")}/v1/tickets?page=${page + 1}&limit=${limit}`
           : null;
       let prevPageURL =
         page > 1
-          ? `http://${config.get("user.host_url")}/v1/tickets?page=${page - 1}&limit=${limit}`
+          ? `${config.get("user.host_url")}/v1/tickets?page=${page - 1}&limit=${limit}`
           : null;
-      let path = `http://${config.get("user.host_url")}/v1/tickets`;
+      let path = `${config.get("user.host_url")}/v1/tickets`;
       let perPage = limit;
       return res.status(200).send(
         Response.ticketSuccessListAllResp("fetch successfully", {
